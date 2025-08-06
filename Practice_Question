@@ -1,0 +1,46 @@
+list
+
+
+Create a list of your 5 favorite fruits.
+
+Print the first and last item from a list.
+
+Change the second element of a list to something else.
+
+Add a new element at the end of a list.
+
+Insert an element at the third position.
+
+Remove a specific item from a list.
+
+Remove the last item from a list using pop().
+
+Find the length of a list.
+
+Sort a list of numbers in ascending order.
+
+Reverse a list.
+
+
+Tuple
+
+Create a tuple of 5 colors.
+
+Print the third item in the tuple.
+
+Try to change the second item in a tuple (what happens?).
+
+Check if a specific value exists in a tuple.
+
+Find the length of a tuple.
+
+Convert a tuple into a list, modify the list, and convert it back to a tuple.
+
+Bonus: Combined List & Tuple Tasks
+Create a list of tuples (e.g., list of (name, age)).
+
+Write a function that takes a list and returns a tuple with the first and last element.
+
+Given a tuple of numbers, return a new list with only the even numbers.
+
+Convert a list of strings into a tuple of strings.
