@@ -22,6 +22,9 @@ Sort a list of numbers in ascending order.
 Reverse a list.
 
 
+
+
+
 Tuple
 
 Create a tuple of 5 colors.
@@ -37,6 +40,7 @@ Find the length of a tuple.
 Convert a tuple into a list, modify the list, and convert it back to a tuple.
 
 Bonus: Combined List & Tuple Tasks
+
 Create a list of tuples (e.g., list of (name, age)).
 
 Write a function that takes a list and returns a tuple with the first and last element.
@@ -44,3 +48,10 @@ Write a function that takes a list and returns a tuple with the first and last e
 Given a tuple of numbers, return a new list with only the even numbers.
 
 Convert a list of strings into a tuple of strings.
+
+
+
+
+Task on operator 
+
+first name , last name , markes 5 subject, addition all the subject  ,last total marks  criteria : 50 student pass other fail 
