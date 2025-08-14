@@ -1,0 +1,101 @@
+If Statements
+
+1. Write a program that checks if a number is positive.
+
+2. Check if a user’s age is greater than or equal to 18 (eligible to vote).
+
+3. Check if a string contains the word "Python".
+
+4. Check if a number is divisible by 5.
+
+5. Verify if a user-entered password is "admin123".
+
+6. Check if a number entered by the user is greater than 100.
+
+7. Check if a string starts with the letter "A".
+
+8. Check if a number is a multiple of both 3 and 7.
+
+9. Check if a user’s input matches your favorite movie title.
+
+10. Check if the entered PIN is exactly 4 digits.
+
+11. Check if the first character of a string is uppercase.
+
+12. Check if a given number is a perfect square.
+
+----------------------------------------------------------------------------------------------XXXX--------------------------------------------------------------------------------------------------------------------
+
+If-Else Statements
+
+1. Check if a number is even or odd.
+
+2. Determine if a year is a leap year or not.
+
+3. Check if a given temperature is above 30°C (Hot) or not (Cool).
+
+4. Verify if a username matches a saved username; if not, print "Invalid username".
+
+5. Check if a character is a vowel or consonant.
+
+6. Determine whether a given string is a palindrome.
+
+7. Check if the sum of two numbers is greater than 50.
+
+8. Check if a word contains more vowels or consonants.
+
+9. Determine whether the user typed a number or not.
+
+10. Check if a number is positive; if not, make it positive.
+
+11. Verify if a number is a prime number (simple logic).
+
+12. Check if two numbers are equal or not.
+
+
+
+----------------------------------------------------------------------------------------------XXXX--------------------------------------------------------------------------------------------------------------------
+
+If-Elif-Else Statements
+
+1. Assign a grade (A, B, C, D, F) based on marks:
+        
+        A: 90+
+        
+        B: 80–89
+        
+        C: 70–79
+        
+        D: 60–69
+        
+        F: Below 60
+
+2. Display the type of triangle based on its three sides (Equilateral, Isosceles, Scalene).
+
+3. Calculate ticket price based on age:
+
+        Below 5: Free
+        
+        5–17: ₹100
+        
+        18–59: ₹200
+        
+        60 and above: ₹50
+
+4. Print the day of the week based on a number (1 for Monday, 2 for Tuesday, …, 7 for Sunday).
+
+5. Display menu options: 1. Pizza, 2. Burger, 3. Pasta, 4. Exit. Print the selected food item.
+
+6. Determine season based on month number (1–12).
+
+7. Print grade based on percentage (like earlier but with + and – variations).
+
+8. Calculate electricity bill:
+
+        ≤ 100 units: ₹5 per unit
+        
+        101–300 units: ₹8 per unit
+        
+        300 units: ₹10 per unit
+
+----------------------------------------------------------------------------------------------XXXX--------------------------------------------------------------------------------------------------------------------
