@@ -1,0 +1,98 @@
+Task 1 : Student Marksheet  Using Operator 
+
+Task assigned : 
+1. Add variable with first and last name
+2. create any five subject and get marks as input
+3. find total marks and get out percentage
+4. if percentage satisfy criteria then student will pass otheer wise fail ( criteria is 60 % , can put any criteria if anyone ants to changed the criteria)
+
+-----------------XXXX-----------------
+
+Code  :  
+
+first_name = str(input("Enter the First Name : "))
+last_name = str(input("Enter the Last Name : "))
+
+maths  = float(input("Please enter your Maths marks : ")) 
+
+science = float(input("Please enter your science marks : "))
+
+English  = float(input("Please enter your English marks : "))
+
+Python  = float(input("Please enter your Python marks : "))
+
+SQl  = float(input("Please enter your SQl marks : "))
+
+
+total_marks = maths + science + English + Python + SQl
+
+percentage = ( total_marks / 500 ) * 100   # 500 for 5 subject each subject consist of 100 marks
+
+grade = [ " Fail " , "Pass"]
+
+grade_index = (percentage > 60)  # 0/ 1
+
+
+final_grade = grade[grade_index]  # grade[0] / grade[1]
+
+print(" Marksheet Report of the Student \n ")
+print("Name of the Student",first_name,last_name)
+
+
+
+print("subjects\n","Maths : ",maths , "\n" ,"Science : ", science , "\n" , "English : ",English , "\n","Python : ", Python,"\n", "SQL : ",SQl )
+
+print("Percentage of the student : ",percentage)
+
+print("Result of the student : ",final_grade)
+
+-----------------XXXX-----------------
+
+Output for pass student :
+
+Enter the First Name :  Umang
+Enter the Last Name :  modak
+Please enter your Maths marks :  92
+Please enter your science marks :  84
+Please enter your English marks :  86
+Please enter your Python marks :  88
+Please enter your SQl marks :  78
+ Marksheet Report of the Student 
+ 
+Name of the Student : Umang Modak
+subjects
+ Maths :  92.0 
+ Science :  84.0 
+ English :  86.0 
+ Python :  88.0 
+ SQL :  78.0
+Percentage of the student :  85.6
+Result of the student :  Pass
+
+
+-----------------XXXX-----------------
+
+Output for fail student :
+
+Enter the First Name :  Vishesh
+Enter the Last Name :  Kumar
+Please enter your Maths marks :  90
+Please enter your science marks :  43
+Please enter your English marks :  45
+Please enter your Python marks :  36
+Please enter your SQl marks :  70
+ Marksheet Report of the Student 
+ 
+Name of the Student : Vishesh Kumar
+subjects
+ Maths :  90.0 
+ Science :  43.0 
+ English :  45.0 
+ Python :  36.0 
+ SQL :  70.0
+Percentage of the student :  56.8
+Result of the student :   Fail 
+
+-----------------XXXX-----------------
+
+Note : Name of the student is imaginary and you can take any name....
