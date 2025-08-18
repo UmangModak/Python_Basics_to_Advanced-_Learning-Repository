@@ -14,9 +14,9 @@ The basics section helps you understand the core building blocks of Python. It i
 - Operators and Expressions  
 - Conditional Statements (`if`, `else`, `elif`)  
 - Loops (`for`, `while`, `break`, `continue`)  
-- Functions and Recursion  
+- Functions
+- Oops
 - Lists, Tuples, Sets, and Dictionaries  
-- String Manipulation  
 - Input/Output Handling  
 
 Each topic comes with simple examples, making it easy to follow even if you're completely new to programming.
