@@ -1,0 +1,58 @@
+                                                                  Mini Project using Oops 
+
+
+1. Bank Management System 
+
+    Concepts Used: Inheritance, abstraction, encapsulation
+    
+    Features:
+    
+    Deposit/withdraw money
+    
+    Account balance
+    
+    Savings & Current accounts
+
+----------------------------------------------------------------------------------------------xxxx------------------------------------------------------------------------------------
+
+2. Library Management System 
+
+    Concepts Used: Classes, inheritance, file handling, encapsulation.
+    
+    Features:
+    
+    Add/remove books
+    
+    Borrow/return books
+    
+    Track available books & members
+
+----------------------------------------------------------------------------------------------xxxx------------------------------------------------------------------------------------
+
+3. School Management System 
+
+    Concepts Used: Inheritance, polymorphism, multiple classes
+    
+    Features:
+    
+    Teachers & Students
+    
+    Assign subjects
+    
+    Grade students
+
+----------------------------------------------------------------------------------------------xxxx------------------------------------------------------------------------------------
+
+4. Online Shopping System 
+
+    Concepts Used: Inheritance, polymorphism, classes, encapsulation
+    
+    Features:
+    
+    Products with categories
+    
+    Cart system
+    
+    Checkout with total calculation
+
+----------------------------------------------------------------------------------------------xxxx------------------------------------------------------------------------------------
