@@ -1,0 +1,242 @@
+
+1. What is a dataset in Power BI?
+
+Answer:
+A dataset is a collection of data that Power BI uses to build reports and dashboards. It can come from one or more sources.
+
+2. What are the advantages of Power BI?
+
+Answer:
+
+Easy to use drag-and-drop interface
+
+Integration with Excel, Azure, and other Microsoft tools
+
+Real-time data access
+
+AI-driven analytics
+
+Cloud and on-premises connectivity
+
+Rich visualization library
+
+3. What is a data model in Power BI?
+
+Answer:
+A data model defines how tables relate to each other using relationships (one-to-many, many-to-one, etc.) and includes calculated columns, measures, and hierarchies.
+
+
+4. What are filters in Power BI and types of filters?
+
+Answer:
+
+Visual-level filters: Apply to a single visual
+
+Page-level filters: Apply to all visuals on a report page
+
+Report-level filters: Apply to all pages in a reports
+
+
+5. What are the file types in Power BI?
+
+Answer:
+
+.pbix → Power BI Desktop file
+
+.pbit → Power BI Template file
+
+.csv, .xlsx → Input data files
+
+6. How do you refresh data in Power BI?
+
+Answer:
+You can refresh data manually in Power BI Desktop or schedule refreshes in Power BI Service using Gateways.
+
+7. What is a tooltip in Power BI?
+
+Answer:
+A tooltip shows additional information when hovering over a data point, such as detailed metrics or visuals.
+
+
+
+------------------------------------------------------------------------xx----------------------------------------------------------------------------------
+
+
+1. What is Power BI?
+
+Answer:
+Power BI is a business intelligence tool by Microsoft that allows users to connect to various data sources, transform and model data, and create interactive dashboards and reports for data visualization and analysis.
+
+2. What are the key components of Power BI?
+
+Answer:
+
+Power Query – for data extraction, transformation, and loading (ETL)
+
+Power Pivot – for data modeling and DAX calculations
+
+Power View – for creating interactive visualizations
+
+Power BI Desktop – the main development tool
+
+Power BI Service – for online sharing and collaboration
+
+Power BI Mobile – for viewing reports on mobile devices
+
+Power BI Gateway – for connecting on-premises data sources
+
+3. What types of data sources can Power BI connect to?
+
+Answer:
+Power BI can connect to:
+
+Databases (SQL Server, Oracle, MySQL, etc.)
+
+Online services (SharePoint, Azure, Google Analytics)
+
+Files (Excel, CSV, JSON, XML)
+
+APIs and web data
+
+4. What is the difference between Power BI Desktop and Power BI Service?
+
+Answer:
+
+Power BI Desktop: Used to create reports and data models locally.
+
+Power BI Service: Cloud-based platform used to publish, share, and collaborate on reports.
+
+5. What is a dashboard in Power BI?
+
+Answer:
+A dashboard is a single-page, interactive view that contains visuals from multiple reports or datasets. It gives a high-level overview and key metrics at a glance.
+
+6. What is a report in Power BI?
+
+Answer:
+A report is a multi-page visualization created from a dataset, used to explore data in depth.
+
+7. What is the difference between a calculated column and a measure in Power BI?
+
+Answer:
+
+Feature	         Calculated Column	         Measure
+Stored   	Stored in the model	  Calculated on the fly
+Context	         Row context	           Filter context
+Use Case	Row-level calculations	  Aggregations (like SUM, AVG)
+
+8. What is Power Query?
+
+Answer:
+Power Query is a data transformation and cleansing tool in Power BI used for connecting, transforming, and loading data before modeling.
+
+9. What are relationships in Power BI?
+
+Answer:
+Relationships connect tables based on a common column (key). They help Power BI understand how data from different tables relate, enabling cross-table calculations and visuals.
+
+10. What are slicers in Power BI?
+
+Answer:
+Slicers are visual filters that allow users to interactively filter data in reports.
+
+  ------------------------------------------------------------------xx------------------------------------------------------------------------------------------
+
+
+
+DAX (Data Analysis Expressions) Basic Interview Questions
+
+11. What is DAX?
+
+Answer:
+DAX (Data Analysis Expressions) is a formula language used in Power BI, Power Pivot, and SSAS to create calculated columns, measures, and custom tables.
+
+
+
+12. What are the main types of DAX functions?
+
+Answer:
+
+Aggregate functions: SUM(), AVERAGE(), COUNT()
+
+Filter functions: FILTER(), ALL(), CALCULATE()
+
+Time intelligence functions: SAMEPERIODLASTYEAR(), TOTALYTD()
+
+Logical functions: IF(), AND(), OR()
+
+Text functions: CONCATENATE(), LEFT(), RIGHT()
+
+
+
+13. What is the difference between SUM() and SUMX()?
+
+Answer:
+
+SUM() adds up all values in a single column.
+Example: SUM(Sales[Revenue])
+
+SUMX() evaluates an expression for each row and then sums the result.
+Example: SUMX(Sales, Sales[Quantity] * Sales[UnitPrice])
+
+14. What is the difference between row context and filter context?
+
+Answer:
+
+Row context: Exists when Power BI evaluates expressions for each row (used in calculated columns).
+
+Filter context: Applies when filters (like slicers or visuals) affect which rows are included in a calculation (used in measures).
+
+
+15. What is the use of DISTINCT() in DAX?
+
+Answer:
+DISTINCT() returns a one-column table with unique values from a column.
+Example:
+
+DistinctRegions = DISTINCT(Sales[Region])
+
+
+16 . How can you improve performance in Power BI?
+
+Answer:
+
+Use Star Schema model design
+
+Avoid using too many calculated columns; prefer measures
+
+Use proper data types
+
+Reduce data load with query folding
+
+Use aggregations where possible
+
+
+-----------------------------------------------------------------------------x----------------------------------------------------------------------
+
+list of Dax
+
+1. Aggregate Functions
+Function	          Description	                  Example
+SUM()	           Adds all numbers in a column   	SUM(Sales[Revenue])
+AVERAGE()	   Returns average of a column	      AVERAGE(Sales[Revenue])
+MIN()	           Smallest value in a column	      MIN(Sales[Revenue])
+MAX()	           Largest value in a column	      MAX(Sales[Revenue])
+COUNT()	           Counts non-blank rows	      COUNT(Sales[OrderID])
+COUNTROWS()	  Counts rows in a table	      COUNTROWS(Sales)
+DISTINCTCOUNT()  Counts distinct values	              DISTINCTCOUNT(Sales[CustomerID])
+
+2.2. Logical Functions
+Function	                 Description	             Example
+IF()	Checks condition and returns values	  IF(Sales[Profit] > 0, "Profit", "Loss")
+AND()	Returns TRUE if all are TRUE	          AND(Sales[Region]="East", Sales[Profit]>0)
+OR()	Returns TRUE if any condition TRUE     	OR(Sales[Profit]>1000, Sales[Region]="North")
+SWITCH()	Replaces nested IFs	        SWITCH(Sales[Region], "East", 1, "West", 2, 0)
+
+3.5. Text Functions
+Function	           Description	                     Example
+CONCATENATE()	  Joins two text strings	      CONCATENATE(Sales[Region], "-", Sales[City])
+LEFT()	        Extracts leftmost characters	        LEFT(Sales[ProductName], 4)
+RIGHT()	        Extracts rightmost characters    	RIGHT(Sales[ProductCode], 3)
+LEN()	        Returns length of a text	        LEN(Sales[CustomerName])
+UPPER() / LOWER()	Converts text case	UPPER(Sales[Region])
