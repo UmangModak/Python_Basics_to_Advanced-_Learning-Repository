@@ -1,0 +1,272 @@
+| Column Name | Data Type   | Description               |
+| ----------- | ----------- | ------------------------- |
+| emp_id      | INT         | Employee ID (Primary Key) |
+| first_name  | VARCHAR(50) | Employee first name       |
+| last_name   | VARCHAR(50) | Employee last name        |
+| department  | VARCHAR(50) | Department name           |
+| salary      | INT         | Monthly salary            |
+| age         | INT         | Employee age              |
+| city        | VARCHAR(50) | City of employee          |
+| join_date   | DATE        | Date employee joined      |
+
+
+-- Create Table
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    department VARCHAR(50),
+    salary INT,
+    age INT,
+    city VARCHAR(50),
+    join_date DATE
+);
+
+-- Insert 30 Rows
+INSERT INTO employees VALUES
+(1, 'Amit', 'Sharma', 'HR', 40000, 28, 'Mumbai', '2020-01-15'),
+(2, 'Sneha', 'Patil', 'Finance', 55000, 31, 'Pune', '2019-06-01'),
+(3, 'Rahul', 'Kumar', 'IT', 60000, 26, 'Delhi', '2021-03-10'),
+(4, 'Priya', 'Verma', 'Marketing', 45000, 29, 'Bangalore', '2020-08-22'),
+(5, 'Arjun', 'Singh', 'Finance', 70000, 35, 'Delhi', '2018-11-12'),
+(6, 'Kiran', 'Joshi', 'HR', 38000, 25, 'Pune', '2022-01-05'),
+(7, 'Meena', 'Rao', 'IT', 62000, 30, 'Chennai', '2019-12-20'),
+(8, 'Vikas', 'Mehta', 'IT', 58000, 27, 'Mumbai', '2021-06-15'),
+(9, 'Neha', 'Nair', 'Marketing', 50000, 32, 'Kolkata', '2020-10-02'),
+(10, 'Sanjay', 'Kapoor', 'Finance', 75000, 40, 'Delhi', '2017-03-18'),
+(11, 'Deepa', 'Iyer', 'HR', 42000, 29, 'Chennai', '2021-02-19'),
+(12, 'Rohan', 'Malhotra', 'IT', 64000, 33, 'Pune', '2019-04-10'),
+(13, 'Pooja', 'Desai', 'Finance', 59000, 27, 'Bangalore', '2020-07-25'),
+(14, 'Nikhil', 'Bansal', 'Marketing', 46000, 24, 'Mumbai', '2022-03-01'),
+(15, 'Isha', 'Gandhi', 'HR', 41000, 26, 'Delhi', '2020-09-17'),
+(16, 'Raj', 'Pillai', 'Finance', 67000, 34, 'Kolkata', '2018-06-23'),
+(17, 'Tina', 'Menon', 'IT', 63000, 29, 'Delhi', '2021-05-30'),
+(18, 'Harsh', 'Agarwal', 'HR', 39000, 23, 'Bangalore', '2022-11-02'),
+(19, 'Simran', 'Kaur', 'Marketing', 52000, 31, 'Pune', '2020-02-14'),
+(20, 'Ankit', 'Patel', 'Finance', 72000, 36, 'Ahmedabad', '2017-09-10'),
+(21, 'Divya', 'Sethi', 'IT', 59000, 28, 'Delhi', '2021-07-20'),
+(22, 'Kabir', 'Jain', 'Finance', 56000, 30, 'Mumbai', '2020-05-11'),
+(23, 'Ritika', 'Bhatt', 'Marketing', 53000, 33, 'Chennai', '2019-11-09'),
+(24, 'Manish', 'Dubey', 'IT', 61000, 32, 'Pune', '2021-01-28'),
+(25, 'Alisha', 'Fernandez', 'HR', 37000, 24, 'Kolkata', '2022-08-12'),
+(26, 'Ravi', 'Yadav', 'Finance', 69000, 38, 'Bangalore', '2018-02-03'),
+(27, 'Swati', 'Naik', 'Marketing', 48000, 27, 'Delhi', '2020-04-22'),
+(28, 'Naveen', 'Reddy', 'IT', 65000, 35, 'Hyderabad', '2019-03-30'),
+(29, 'Lakshmi', 'Das', 'Finance', 73000, 41, 'Kolkata', '2016-12-05'),
+(30, 'Aditya', 'Chopra', 'HR', 43000, 28, 'Hyderabad', '2021-08-15');
+
+
+
+
+1.show all record from employeee
+2. display only first, last name and department
+3. show unique departmnt
+4. show employees with salary greater than 50,000
+5. display emplyess less tha 30
+6.get employees details from delhi.
+7.employees work in finance and earn more than 50k
+8.list allemployees who are in hr or marketing
+9.display employees outside mumbai
+10.employee salary between 40k to 60k
+11. employee start with s
+12. employee end with e
+13. top 3 highest salary
+14. salary order by ascendin 
+15. salary order by descending.
+
+
+
+
+create database xyz
+
+
+create table with employee details and fill that details or entry i gave to you sent in chatbox.
+
+
+| Column Name | Data Type   | Description               |
+| ----------- | ----------- | ------------------------- |
+| emp_id      | INT         | Employee ID (Primary Key) |
+| first_name  | VARCHAR(50) | Employee first name       |
+| last_name   | VARCHAR(50) | Employee last name        |
+| department  | VARCHAR(50) | Department name           |
+| salary      | INT         | Monthly salary            |
+| age         | INT         | Employee age              |
+| city        | VARCHAR(50) | City of employee          |
+| join_date   | DATE        | Date employee joined      |
+
+complete this question
+1.show all record from employeee
+2. display only first, last name and department
+3. show unique departmnt
+4. show employees with salary greater than 50,000
+5. display emplyess less than 30
+6.get employees details from delhi.
+7.employees work in finance and earn more than 50k
+8.list allemployees who are in hr or marketing
+9.display employees outside mumbai
+10.employee salary between 40k to 60k
+11. employee start with s
+12. employee end with e
+13. top 3 highest salary
+14. salary order by ascendin 
+15. salary order by descending.
+16. find average salary by departmet.
+17. find average salary by employees.
+18. count employees in the finance department.
+19. count employees in the hr department.
+20. count employees in the it department.
+21. count employees in the marketing department.
+22. total saray  by departmentwise.
+23. find youngest employee name.
+24. find oldest employee name.
+25.find city and their count.
+26. number of employees in each department.
+27. max and min salary by department.
+28. avg age per city.
+29.count employee per city
+30.total salary per city.
+
+
+
+
+--------------------------------------------------------------------END----------------------------------------------------------------
+
+Task 2
+
+CREATE DATABASE Database_name;
+USE Database_name;
+
+
+CREATE TABLE departments (
+    dept_id INT PRIMARY KEY,
+    department VARCHAR(50),
+    manager VARCHAR(50)
+);
+
+INSERT INTO departments (dept_id, department, manager) VALUES
+(1, 'HR', 'Meena'),
+(2, 'Finance', 'Arjun'),
+(3, 'IT', 'Neha'),
+(4, 'Marketing', 'Ravi'),
+(5, 'Admin', 'Suresh');
+
+
+
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    department VARCHAR(50),
+    salary DECIMAL(10,2),
+    age INT,
+    city VARCHAR(50),
+    join_date DATE
+);
+
+INSERT INTO employees (emp_id, first_name, last_name, department, salary, age, city, join_date) VALUES
+(1, 'Amit', 'Sharma', 'HR', 40000.00, 28, 'Mumbai', '2020-01-15'),
+(2, 'Sneha', 'Patil', 'Finance', 55000.00, 31, 'Pune', '2019-06-01'),
+(3, 'Rahul', 'Kumar', 'IT', 60000.00, 26, 'Delhi', '2021-03-10'),
+(4, 'Priya', 'Verma', 'Marketing', 45000.00, 29, 'Bangalore', '2020-08-22'),
+(5, 'Arjun', 'Singh', 'Finance', 70000.00, 35, 'Delhi', '2018-11-12'),
+(6, 'Kiran', 'Joshi', 'HR', 38000.00, 25, 'Pune', '2022-01-05'),
+(7, 'Meena', 'Rao', 'IT', 62000.00, 30, 'Chennai', '2019-12-20'),
+(8, 'Vikas', 'Mehta', 'IT', 58000.00, 27, 'Mumbai', '2021-06-15'),
+(9, 'Neha', 'Nair', 'Marketing', 50000.00, 32, 'Kolkata', '2020-10-02'),
+(10, 'Sanjay', 'Kapoor', 'Finance', 75000.00, 40, 'Delhi', '2017-03-18'),
+(11, 'Rohit', 'Bansal', 'Finance', 48000.00, 29, 'Delhi', '2021-07-10'),
+(12, 'Tina', 'Agarwal', 'HR', 41000.00, 27, 'Pune', '2022-02-20'),
+(13, 'Ajay', 'Reddy', 'IT', 64000.00, 33, 'Hyderabad', '2018-09-12'),
+(14, 'Pooja', 'Shah', 'Marketing', 46000.00, 28, 'Mumbai', '2020-05-18'),
+(15, 'Manoj', 'Gupta', 'Finance', 53000.00, 31, 'Delhi', '2019-04-10'),
+(16, 'Simran', 'Kaur', 'HR', 39500.00, 24, 'Bangalore', '2023-01-10'),
+(17, 'Deepak', 'Yadav', 'IT', 61000.00, 29, 'Delhi', '2020-12-11'),
+(18, 'Kavita', 'Jain', 'Marketing', 47000.00, 30, 'Pune', '2019-11-25'),
+(19, 'Tarun', 'Joshi', 'Finance', 72000.00, 38, 'Kolkata', '2017-08-16'),
+(20, 'Aarti', 'Nair', 'IT', 56000.00, 27, 'Bangalore', '2021-02-01');
+
+
+Questions
+
+Display all records from the employees table.
+Show only the first name, department, and salary of all employees.
+List all employees working in the Finance department.
+Show employees whose salary is greater than 50,000.
+Display employees who live in Delhi or Mumbai.
+List employees who joined after 1st January 2020.
+Show employees whose age is between 25 and 30.
+Display employees whose names start with ‘A’.
+Retrieve employees whose department is not IT.
+Sort all employees by salary in descending order.
+
+ SECTION 2: Aggregate Functions & GROUP BY
+
+1️ Find the total number of employees in each department.
+2️ Calculate the average salary department-wise.
+3️ Find the maximum salary for each department.
+4️ Show departments having average salary > 55,000.
+5️ Display the sum of salaries city-wise.
+6️ Count how many employees belong to each city.
+7️ Find minimum salary from the entire table.
+8️ Display the number of employees with salary greater than 60,000.
+9️ Get department-wise total and average salary together.
+10 Find total number of departments available in the company.
+
+ SECTION 3: Joins (INNER, LEFT, RIGHT)
+
+1️.Perform an INNER JOIN to show employee name, department, and manager.
+2️ Perform a LEFT JOIN to display all employees, even if their department has no manager.
+3️ Perform a RIGHT JOIN to display all departments and any matching employees.
+4️ Use a FULL JOIN (via UNION) to show all employees and all departments.
+5️ Show employees whose department exists in the departments table.
+6️ Find department managers along with total employees under each department.
+7️ Show employee name, department, manager, and city using a JOIN.
+8️ List employees whose manager name starts with ‘M’.
+9️ Display employees and departments where salary > 60000.
+10 Find the department with no employees (using RIGHT JOIN).
+
+ SECTION 4: Subqueries (Single Row / Multiple Row)
+
+1️ Find employees earning more than the average salary.
+2️ Find employees working in the same department as ‘Sneha’.
+3️ Show employees whose salary is equal to the maximum salary in their department.
+4️ List departments having average salary greater than 50,000.
+5️ Display employees who joined after the earliest join date in the company.
+6️ Find employees whose salary is greater than any salary in the HR department.
+7️ Find employees whose salary is less than all salaries in Finance.
+8️ Retrieve employees working in the same city as ‘Rahul’.
+9️ Find department names where total salary exceeds 100000.
+10 Display employees who have the same salary as someone else (duplicate salaries).
+
+ SECTION 5: Nested Subqueries / Inline Views
+
+1️ Display department and its average salary using a subquery in the FROM clause.
+2️ Show employees whose salary is above their department’s average.
+3️ Display top 3 highest-paid employees using ORDER BY and LIMIT.
+4️ Find the second highest salary using subquery.
+5️ List employees whose salary is greater than Finance department average.
+6️ Find departments where more than 2 employees work.
+7️ Get total salary of departments where the highest salary > 60000.
+8️ Find employees who joined earlier than the average join date.
+9️ List department managers where total department salary > 1,20,000.
+10 Find employees whose salary is within top 20% of all employees.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
